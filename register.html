@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        header {
+        background: black;
+        color: white;
+        display: flex;
+        justify-content:center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" >
+            <img src="porsche_nameblack.jpg" size="90%">
+        </div>
+    </header>
+    <h1 align="center">
+        Register
+    </h1>
+    <form method="POST" action="register.php"><table align="center">
+        <tr>
+            <td>Username</td>
+            <td><input type = "text" name = "username"></input></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type = "text" name = "email"></input></td>
+        </tr>
+        <tr>
+            <td>Phone No:</td>
+            <td><input type = "text" name = "phone"></input></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2"><input type="submit"></input></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
