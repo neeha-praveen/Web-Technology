@@ -12,7 +12,7 @@ $pass = $_POST['password'];
 
 $email = stripcslashes($email);  
 $password = stripcslashes($password);  
-        $username = mysqli_real_escape_string($con, $username);  
+$email = mysqli_real_escape_string($con, $username);  
         $password = mysqli_real_escape_string($con, $password);  
       
         $sql = "select *from login where username = '$username' and password = '$password'";  
